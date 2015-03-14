@@ -269,7 +269,6 @@ class Preview extends SurfaceView implements SurfaceHolder.Callback, Camera.Prev
         String str2 = text_B.getText().toString();
         str2 = str2.substring(8,10);
         text_B.setText("B="+str2);
-        // 커밋을 위해 테스트용 주석처리
         //Outuput the value of the top left pixel in the preview to LogCat
         Log.i("Pixels", "The top right pixel has the following RGB (hexadecimal) values:"
                 + Integer.toHexString(pixels[0]));
